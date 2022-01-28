@@ -1,0 +1,417 @@
+/* responsive css code goes here */
+
+/*
+ Most of the low resolution mobile devices like: Galaxi fold
+*/
+@media (min-width: 279px) and (max-width: 319px){
+/*code start*/
+
+/********************************
+ *global css code start 
+ ********************************/
+.container{
+	width: 279px;
+	
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.col-6{
+	width: 100%;
+	float: left;
+}
+.col-12{
+	width: 100%;
+	float: left;
+}
+.col-4{
+	width: 100%;
+	float: left;
+}
+
+.logo{
+	width: 100%;
+	display:block;
+	text-align: center;
+}
+.nav{
+	text-align: left;
+}
+.nav li a {
+    font-size: 9px;    
+}
+.banner {
+    padding: 25px 0px; 
+}
+.banner h1 {
+    font-size: 20px;
+    line-height: 30px;
+}
+.banner p {
+    font-size: 9px;
+    line-height: 19px;
+}
+.successfull .left-text {
+    text-align: center;
+}
+.successfull .left-text h2 {
+    font-size: 50px;
+    line-height: 60px;
+    margin:  0px;
+}
+.successfull .left-text p {
+    font-size: 10px;
+    line-height: 20px;
+    margin: 0px;
+}
+.successfull .right-text {
+    text-align: center;
+}
+.successfull .right-text h2 {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 15px 0px 0px 0px;
+}
+.feature .inner-feature {
+    width: 80%;
+    margin: 0px 0px 20px;    
+}
+.feature .inner-feature img {
+    height: 130px;
+}
+.feature .inner-feature h5 {
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0px 0px 4px;
+}
+.feature .inner-feature p {
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.footer {
+    width: 100%;
+    height: 35px;
+}
+
+.footer h5 {
+    font-size: 12px;
+    line-height: 22px;
+    margin-top: 10px;
+}
+.footer h5 span {
+    font-size: 8px;
+    line-height: 18px;
+    
+}
+
+/*code end*/
+}
+
+/*
+ Most of the  mobile devices
+*/
+@media (min-width: 320px) and (max-width: 480px){
+/*code start*/
+
+/********************************
+ *global css code start 
+ ********************************/
+.container{
+	width: 100%;
+	padding: 0px 15px;
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.col-6{
+	width: 90%;
+	float: left;
+}
+.col-12{
+	width: 100%;
+	float: left;
+}
+.col-4{
+	width: 100%;
+	float: left;
+}
+
+.logo{
+	width: 100%;
+	display:block;
+	text-align: center;
+}
+.nav{
+	text-align: center;
+}
+.nav li a {
+    font-size: 10px;
+}
+
+.banner {
+    padding: 20px 0px; 
+}
+.banner h1 {
+    font-size: 23px;
+    line-height: 33px;
+}
+.banner p {
+    font-size: 9px;
+    line-height: 19px;
+}
+.banner .banner-img {
+    width: 65%;
+    margin-top: 18px;
+}
+.successfull .left-text {
+    text-align: center;
+}
+.successfull .left-text h2{
+    font-size: 54px;
+    line-height: 64px;
+}
+.successfull .right-text {
+    text-align: center;
+}
+.successfull .right-text h2 {
+    font-size: 28px;
+    line-height: 38px;
+    margin: 20px 0px 0px 0px;
+}
+.feature .inner-feature {
+    width: 88%;
+    margin: 0px 0px 20px;    
+}
+.footer {
+    width: 100%;
+    height: 40px;
+}
+
+.footer h5 {
+    font-size: 13px;
+    line-height: 23px;
+    margin-top: 14px;
+}  
+ .footer h5 span {
+    font-size: 10px;
+    line-height: 20px;
+    
+}
+/*code end*/
+}
+
+/*
+ Most of the  mobile devices ,Low resolutions Tablet,Ipad.
+*/
+@media (min-width: 481px) and (max-width: 767px){
+/*code start*/
+
+/********************************
+ *global css code start 
+ ********************************/
+.container{
+    width: 100%;
+    padding: 0px 15px;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.col-6{
+    width: 100%;
+    float: left;
+}
+.col-12{
+    width: 100%;
+    float: left;
+}
+.col-4{
+    width: 100%;
+    float: left;
+}
+
+.logo{
+    width: 100%;
+    display:block;
+    text-align: center;
+}
+.nav{
+    text-align: center;
+}
+.nav li a {
+    font-size: 16px;
+}
+.banner {
+    padding: 40px 0px; 
+}
+.banner h1 {
+    font-size: 38px;
+    line-height: 48px;
+}
+.banner p {
+    font-size: 13px;
+    line-height: 23px;
+}
+.successfull .left-text {
+    text-align: center;
+}
+.successfull .right-text {
+    text-align: center;
+}
+.successfull .right-text h2 {
+    font-size: 28px;
+    line-height: 38px;
+    margin: 20px 0px 0px 0px;
+}
+.feature .inner-feature {
+    width: 88%;
+    margin: 0px 0px 20px;    
+}
+.feature .inner-feature img {
+ margin: 0px 0px 20px;
+}
+.feature .inner-feature h5 {
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+}
+.feature .inner-feature p {
+    text-align: center;
+}
+.footer {
+    width: 100%;
+    height: 40px;
+}
+
+.footer h5 {
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 14px;
+}  
+ .footer h5 span {
+    font-size: 11px;
+    line-height: 21px;
+    
+}
+
+/*code end*/
+}
+
+/*
+ Most of the Ipad,mini Notebook,Tablet
+*/
+@media (min-width: 768px) and (max-width: 992px){
+/*code start*/
+
+/********************************
+ *global css code start 
+ ********************************/
+.container{
+    width: 100%;
+    padding: 0px 15px;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.col-6{
+    width: 100%;
+    float: left;
+}
+.col-12{
+    width: 100%;
+    float: left;
+}
+.col-4{
+    width: 100%;
+    float: left;
+}
+
+.logo{
+    width: 100%;
+    display:block;
+    text-align: center;
+}
+.nav{
+    text-align: center;
+    margin: 22px 0px 0px;
+}
+.nav li a {
+    font-size: 25px;
+}
+.banner {
+    padding: 30px 0px; 
+}
+.banner h1 {
+    font-size: 50px;
+    line-height: 60px;
+}
+.banner p {
+    font-size: 22px;
+    line-height: 32px;
+}
+.successfull .left-text {
+    text-align: center;
+}
+.successfull .left-text h2{
+    font-size: 60px;
+    line-height: 70px;
+    margin: 0px 4px 0px 0px;
+}
+.successfull .left-text p {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 6px 35px 0px 0px;
+}
+
+.successfull .right-text {
+    text-align: center;
+}
+.successfull .right-text h2 {
+    font-size: 35px;
+    line-height: 45px;
+    margin: 25px 0px 0px 0px;
+}
+.feature .inner-feature {
+    width: 88%;
+    margin: 0px 0px 20px;    
+}
+.feature .inner-feature img {
+    width: 100%;
+    height: 202px;
+    margin: 0px 0px 25px;
+}
+.feature .inner-feature h5 {
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0px 0px 5px;
+}
+.feature .inner-feature p {
+    font-size: 22px;
+    line-height: 32px; 
+    text-align: center;   
+}
+
+.footer {
+    width: 100%;
+    height: 56px;
+    overflow-x: hidden;
+}
+
+.footer h5 {
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 22px;
+}  
+ .footer h5 span {
+    font-size: 13px;
+    line-height: 23px;
+    
+}
+
+/*code end*/
+}
